@@ -1,5 +1,6 @@
 ﻿@model test3.Models.Customers
 
+
 @{
     ViewData["Title"] = "รายการอาหาร";
 }
@@ -26,9 +27,8 @@
             <td>ชื่ออาหาร : @Model.Name</td>
             <td>ราคาสินค้า : @Model.Price</td>
             <td><label asp-for="Price" class="col-md-2">จำนวน</label></td>
-            <td>  <input asp-for="sale" /></td>
-            <td><label asp-for="Price" class="col-md-2">ชิ้น</label></td>
-            <td><a asp-action="Buy" asp-route-id="@Model.ID">ซื้อ</a></td>
+            <td>  <input asp-for="sale" /> : ชิ้น</td>
+            <td><a asp-action="Buy" asp-route-id="@Model.ID"> ซื้อ</a></td>
         </tr>
 
 

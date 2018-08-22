@@ -128,13 +128,29 @@ namespace test3.Controllers
             return View(c);
 
         }
-
         private bool CheckCustomers(int id)
         {
             return db.Customers.Any(c => c.ID == id);
         }
-        public async Task<IActionResult> Sale(int? id)
+        public async Task<IActionResult> Sale(int? id,Customers d)
         {
+
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var cs = await db.Customers.SingleOrDefaultAsync(c => c.ID == id);
+            if (cs == null)
+            {
+                return NotFound();
+            }
+            db.UpdateRange(d);
+            await db.SaveChangesAsync();
+            return View(cs);
+        }
+        public async Task<IActionResult> Buy(int? id,Customers d)
+        {
+
             if (id == null)
             {
                 return NotFound();
@@ -145,20 +161,6 @@ namespace test3.Controllers
                 return NotFound();
             }
             return View(cs);
-        }
-        public async Task<IActionResult> Buy(int? id,Customers c)
-        {
-            db.Update(c);
-            await db.SaveChangesAsync();
-            if (id == null)
-            {
-                return NotFound();
-            }
-            if (c == null)
-            {
-                return NotFound();
-            }
-            return View(c);
         }
     }
 }

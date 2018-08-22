@@ -1,4 +1,4 @@
-﻿@model test3.Models.Customers
+﻿@model test3.Models.sale
 
 @{
     ViewData["Title"] = "รายการอาหาร";
@@ -14,7 +14,6 @@
     <thead>
         <tr>
             <th>รหัส</th>
-            <th>ชื่ออาหาร</th>
             <th>ราคาอาหาร</th>
 
         </tr>
@@ -22,36 +21,8 @@
     <tbody>
 
         <tr>
-            <td>รหัสสินค้า : @Model.ID</td>
-            <td>ชื่ออาหาร : @Model.Name</td>
-            <td>ราคาสินค้า : @Model.Price</td>
-            <td><label asp-for="Price" class="col-md-2">จำนวน</label></td>
-            <td>  <input asp-for="sale" /></td>
-            <td><label asp-for="Price" class="col-md-2">ชิ้น</label></td>
-            <td><a asp-action="Buy" asp-route-id="@Model.ID">ซื้อ</a></td>
-        </tr>
-
-
-    </tbody>
-
-</table>
-<br/>
-<table class="table">
-    <thead>
-        <tr>
-            <th>รหัส</th>
-            <th>ชื่ออาหาร</th>
-            <th>ราคาอาหาร</th>
-
-        </tr>
-    </thead>
-    <tbody>
-
-        <tr>
-            <td>รหัสสินค้า : @Model.ID</td>
-            <td>ชื่ออาหาร : @Model.Name</td>
-            <td>ราคาสินค้า : @Model.Price</td>
-            <td> จำนวน : @Model.sale :ชิ้น</td>
+            <td>รหัสสินค้า : @Model.saleID</td>
+            <td>ราคาอาหาร : @Model.Sale</td>
         </tr>
 
 

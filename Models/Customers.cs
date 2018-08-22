@@ -13,7 +13,7 @@ namespace test3.Models
         [MaxLength(100)]
         public String Name { get; set; }
         public int Price { get; set; }
-        public int sale { get; set; }
+      
 
       
     }
