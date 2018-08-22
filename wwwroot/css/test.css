@@ -1,0 +1,29 @@
+﻿body 
+{
+    background-image:url(../images/Alien_Ink_2560X1600_Abstract_Background_1.jpg);
+    background-repeat:repeat-x;
+}
+table
+{
+    font-family:'TH Niramit AS';
+    font-size:20px;
+ 
+    
+}
+tbody
+{
+    background-image: url(../images/light_background-wallpaper-1920x1080.jpg);
+    background-repeat: repeat-x;
+}
+h2 {
+    text-align: center;
+  
+}
+ul {
+    text-align: center;
+ 
+}
+li {
+    text-align: center;
+   
+}

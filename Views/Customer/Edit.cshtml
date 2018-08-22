@@ -1,0 +1,33 @@
+﻿@model test3.Models.Customers
+
+@{ 
+    ViewData["Title"] = "แก้ไขรายการอาหาร";
+
+}
+<h2>แก้ไขรายการอาหาร</h2>
+<form asp-action="Edit">
+    <div class="form-horizontal">
+        <input type="hidden" asp-for="ID" />
+        <div class="form-group">
+            <label asp-for="Name">ชื่อรายการ :</label>
+            <div class="col-md-9">
+                <input asp-for="Name" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Price">ราคา :</label>
+            <div class="col-md-9">
+                <input asp-for="Price" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-9">
+                <input type="submit" value="บันทึก" class="btn-default" />
+               </div>
+            </div>
+        </div>
+</form>
+<div>
+    <a asp-action="Index">กลับสู่หน้ารายการอาหาร/ยกเลิก</a>
+</div>
