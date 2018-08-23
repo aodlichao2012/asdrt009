@@ -73,7 +73,7 @@ using test3.Models;
 #line default
 #line hidden
             BeginContext(93, 63, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "efa40c3f562f47d09affb91b3d196479", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "e79e6e7d09d84e3f9c45129521fff254", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -93,7 +93,7 @@ using test3.Models;
             WriteLiteral("\r\n<h2>ข้อมูลรายการอาหาร</h2>\r\n");
             EndContext();
             BeginContext(186, 139, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7c0f7e32a5154920a27a2e033a721496", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e2a9528756e34d0cb856c815a1c29f36", async() => {
                 BeginContext(251, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
@@ -131,7 +131,7 @@ Write(Html.TextBox("txtQ"));
             WriteLiteral("<br />\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(344, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af25085bd9d14d5a9b3813d618340eaa", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "53eb1927518e4bf3bec4fa6c30129e58", async() => {
                 BeginContext(368, 10, true);
                 WriteLiteral("เพิ่มอาหาร");
                 EndContext();
@@ -192,7 +192,7 @@ Write(Html.TextBox("txtQ"));
             WriteLiteral("</td>\r\n                <td>");
             EndContext();
             BeginContext(772, 62, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3b607d87cf9642b5bb017e2e17550788", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0c4c967f1d35443199021f5f2416fd69", async() => {
                 BeginContext(820, 10, true);
                 WriteLiteral("รายละเอียด");
                 EndContext();
@@ -227,7 +227,7 @@ Write(Html.TextBox("txtQ"));
             WriteLiteral("</td>\r\n                <td>");
             EndContext();
             BeginContext(861, 60, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "87ef531d70fd45a9be74437171ba58c6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3782e2ff63ca42909a778c5728e52940", async() => {
                 BeginContext(906, 11, true);
                 WriteLiteral("แก้ไขข้อมูล");
                 EndContext();
@@ -262,7 +262,7 @@ Write(Html.TextBox("txtQ"));
             WriteLiteral("</td>\r\n                <td>");
             EndContext();
             BeginContext(948, 53, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "443c39a259034d71a02586e83c4f3562", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "937ee7ed22e247eb9e88bdbbee3d4863", async() => {
                 BeginContext(995, 2, true);
                 WriteLiteral("ลบ");
                 EndContext();
@@ -297,7 +297,7 @@ Write(Html.TextBox("txtQ"));
             WriteLiteral("</td>\r\n                <td>");
             EndContext();
             BeginContext(1028, 57, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90587d85947a466e97f4e36825874783", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "efb450234968480993536f61869bb436", async() => {
                 BeginContext(1073, 8, true);
                 WriteLiteral("สั่งซื้อ");
                 EndContext();
