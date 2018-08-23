@@ -64,7 +64,7 @@ using test3.Models;
 #line default
 #line hidden
             BeginContext(75, 63, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c43eb1b2b9ff4a8db02a4de9175cf090", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f6a91976106b461d97bdb24325f4316c", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -84,7 +84,7 @@ using test3.Models;
             WriteLiteral("\r\n<h2>สั่งอาหาร</h2>\r\n\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(173, 37, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71e356db420948598ca105294871d5ea", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "667c70917ebe47e885f8be7d07087af6", async() => {
                 BeginContext(196, 10, true);
                 WriteLiteral("เพิ่มอาหาร");
                 EndContext();
